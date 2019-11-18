@@ -1,0 +1,98 @@
+body{
+    background-color: grey;
+}
+
+.main{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 600px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.myForm{
+    margin-top: 50px;
+    width:100%;
+    height: 25%;
+}
+
+.myInputs{
+    margin-right: 10px;
+    width:35%;
+    display: initial;
+}
+
+.titleColumn{
+    height: 700px;
+    background-color: #8089aa;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    
+}
+.titles{
+    margin-top: 200px;
+}
+.gifImg{
+    width: 50%;
+    height: 70%;
+}
+
+.inputColumn{
+    height: 700px;
+    background-color: white;
+    background-position-x: 30px;
+    background-position-y: 100px;
+}
+
+.resultDiv{
+    font-size: 18px;
+    margin-top: 0px;
+}
+.results{
+    height: 100%;
+    margin-bottom: 20px;
+    color: #77422b;
+}
+
+.results-head{
+    height: 100%;
+    margin-bottom: 30px;
+    color: #77422b;
+    font-weight: bold;
+    font-family: 'Lalezar', cursive;
+}
+
+.temp{
+    white-space: nowrap; 
+    width: 400px; 
+    overflow: hidden;
+    text-overflow: clip; 
+    border: 1px solid #000000;
+}
+
+.titleweather{
+  color: white;
+  font-weight: bold;
+}
+
+.head-l{
+    color: #77422b;
+    font-weight: bold;
+
+
+}
+
+.results-error{
+    height: 100%;
+    margin-bottom: 30px;
+    color: #77422b;
+    font-weight: bold;
+    font-family: 'Lalezar', cursive;
+    font-size:24px;
+
+}
