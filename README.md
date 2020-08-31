@@ -21,7 +21,7 @@ else install npm using [instructions here](https://www.npmjs.com/get-npm)
 Follow their instructions to [get an API key](https://home.openweathermap.org/users/sign_up).
 60 calls/minute can be made with this key. See Further details [here](https://openweathermap.org/price).
 
-Update your key in [Apps.js file](https://github.com/ShivaniGaba1/weather-app/blob/master/src/App.js#L8)
+Update your key in (Apps.js file)[https://github.com/ShivaniGaba1/weather-app/blob/master/src/App.js#L8]
 
 ## Run application
 
