@@ -1,24 +1,26 @@
-### Purpose of this application:
+# Weather application
 
-This is a weather application specially designed to demostrate using mocks for testing.
+## Purpose
+
+This is a weather application specially designed to explore testing of systems in isolation by stubbing other dependencies. 
 
 
-### How to run 
-In the project directory, you can run:
+## Run application
 
-``
-install npm
-``
-install npm package to run this react app 
+The only pre-requisities is `npm`.  To install npm with homebrew, run below command in the terminal:
 
-``
-npm install
-``
-This will install all packages needed in this project
+```shell
+brew install npm
+```
 
-``
+To start the application, run 
+
+```shell
 npm start
-``
-On doing npm start, application is started at http://localhost:3000
-Open http://localhost:3000 to view it in the browser.
+```
 
+The application should be started at http://localhost:3000. Use any preferred browser to see the application.
+
+## Wiremock project code
+
+The project code for stubbing using wiremock can be found [here](https://github.com/ShivaniGaba1/wiremock-weather)
