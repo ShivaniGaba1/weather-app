@@ -36,3 +36,7 @@ The application will be started at http://localhost:3000. Use any preferred brow
 ## Wiremock project code
 
 The project code for stubbing using wiremock can be found [here](https://github.com/ShivaniGaba1/wiremock-weather)
+
+## Switching between actual server and mock server
+
+There is a dropdown on UI to swtiching between the 2 servers. This logic is defined in [Form.js file](https://github.com/ShivaniGaba1/weather-app/blob/master/src/components/Form.js)
