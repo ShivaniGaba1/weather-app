@@ -19,7 +19,7 @@ To start the application, run
 npm start
 ```
 
-The application should be started at http://localhost:3000. Use any preferred browser to see the application.
+The application will be started at http://localhost:3000. Use any preferred browser to see the application.
 
 ## Wiremock project code
 
