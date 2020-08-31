@@ -2,18 +2,30 @@
 
 ## Purpose
 
-This is a weather application specially designed to explore testing of systems in isolation by stubbing other dependencies. 
+This is a weather application specially designed to explore stubbing of APIs.
 
+It is a web based application which calls [OpenWeather](https://openweathermap.org/) endpoint to display current weather of any place.
 
-## Run application
+## Pre-requisities
 
-The only pre-requisities is `npm`.  To install npm with homebrew, run below command in the terminal:
+1. **Npm** - If you use homebrew, run the command:  
 
 ```shell
 brew install npm
 ```
 
-To start the application, run 
+else install npm using [instructions here](https://www.npmjs.com/get-npm)
+
+2. **OpenWeather API key**- The application would also start without a key but to hit the OpenWeather endpoint, a key is needed.
+
+Follow their instructions to [get an API key](https://home.openweathermap.org/users/sign_up).
+60 calls/minute can be made with this key. See Further details [here](https://openweathermap.org/price).
+
+Update your key in (Apps.js file)[https://github.com/ShivaniGaba1/weather-app/blob/master/src/App.js#L8]
+
+## Run application
+
+To start the application, run the command:  
 
 ```shell
 npm start
