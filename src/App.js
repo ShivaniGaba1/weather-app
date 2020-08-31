@@ -5,7 +5,7 @@ import Form from './components/Form';
 import Weather from './components/Weather'
 import './App.css';
 
-const API_KEY='a4d4a3b3f2b8ce37c1c2668e495ec0d2';
+const API_KEY='_____YOUR_KEY______';
 
 const MOCK = false
 
